@@ -8,6 +8,8 @@ Enter the InReach feed information at the top of update_map.php. Use the 'Raw KM
 
 Visit create_table.php on the web host. You should recieve a confirmation indicating the table has been created successfully.
 
+Grab a Google Maps Javascript API key from the Google Developers website. I don't think you strictly need one, but your page may fail to load after a while if you don't.
+
 You can now visit map.php. It will fail to load the first time, but you should be able to refresh and your map will be displayed with any points it was able to download.
 
 # Restricting date range
